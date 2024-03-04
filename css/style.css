@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto');
+
+#main-nav ul li {
+  display: inline-block;
+}
+
+#main-nav ul li a {
+  text-decoration: none;
+  padding: 10px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#content-wrapper {
+  margin: 20px;
+  font-family: 'Roboto', sans-serif;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.home-page #content-wrapper {
+  background-color: #f0f0f0;
+}
+
+.bands-page #content-wrapper {
+  background-color: #e0e0e0;
+}
+
+#page-wrapper {
+  max-width: 90%;
+  margin: auto;
+}
+
+.fixed-width-page #page-wrapper {
+  width: 1024px;
+  margin: auto;
+}
